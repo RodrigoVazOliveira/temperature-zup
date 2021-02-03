@@ -8,4 +8,7 @@ public class IO {
         return new Scanner(System.in);
     }
 
+    public void out(String value) {
+        System.out.println(value);
+    }
 }
