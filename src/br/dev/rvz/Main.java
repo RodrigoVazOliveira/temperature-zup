@@ -12,7 +12,6 @@ public class Main {
         ConvertTemperature convertTemperature = new ConvertTemperature(
                 Double.parseDouble(io.input().nextLine())
         );
-        io.out("===================================");
         io.out(convertTemperature.toString());
     }
 }
