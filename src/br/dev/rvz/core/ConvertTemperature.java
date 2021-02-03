@@ -35,7 +35,7 @@ public class ConvertTemperature {
     @Override
     public String toString() {
         return "valores convertidos: \n" +
-                " valor em Cº valueTemperature=" + valueTemperature +
+                "valor em Cº " + valueTemperature +
                 "\nFareinheit: " + this.convertFarenheit() +
                 "\nKelvin: " + this.convertKelvin() +
                 "\nReaumur: " + this.converReaumur() +
